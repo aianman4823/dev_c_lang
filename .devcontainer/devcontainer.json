@@ -1,0 +1,14 @@
+{
+    "name": "dev_clang",
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "c_dev",
+    "workspaceFolder": "/home/devuser",
+    "shutdownAction": "none",
+    "customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools"
+			]
+		}
+	}
+}

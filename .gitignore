@@ -1,0 +1,9 @@
+microps/*
+.ssh
+.vscode
+.vscode-server
+.bash_history
+.gitconfig
+.lesshst
+.viminfo
+.cache

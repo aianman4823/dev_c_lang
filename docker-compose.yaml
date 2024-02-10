@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  c_dev:
+    build:
+      context: ./.devcontainer
+      dockerfile: Dockerfile
+    volumes:
+      - .:/home/devuser
+    environment:
+      - "DEBIAN_FRONTEND=noninteractive"
+    user: devuser
+    tty: true
+    privileged: true
